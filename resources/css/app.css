@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.countdown-item {
+    @apply flex flex-col items-center;
+}
+
+.countdown-item span:first-child {
+    @apply text-xl font-bold;
+}
+
+.countdown-item span:last-child {
+    @apply text-sm text-gray-500;
+}
+
+#cartCounter {
+    transition: transform 0.2s ease-in-out;
+}
